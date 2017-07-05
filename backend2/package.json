@@ -1,0 +1,32 @@
+{
+  "name": "more-money-backend",
+  "version": "1.0.0",
+  "description": "App for manager finances",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "pm2 -f start src/loader.js --name more-money-backend"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "mongo",
+    "nodejs"
+  ],
+  "author": "Daniel Laurindo",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.7",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.5.0"
+  }
+  
+}
