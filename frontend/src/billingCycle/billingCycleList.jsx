@@ -1,3 +1,8 @@
+/**
+ * BillingCycleList is my presentational component that render my table for show my billing. 
+ * Advice: Try divided your components into containers and presentational. 
+ * In this case(Presentational Component) is very useful to concerned only how things look
+*/
 import React, { Component } from 'react';
 
 class BillingCycleList extends Component {
@@ -27,10 +32,10 @@ class BillingCycleList extends Component {
                 <table className='table'>
                     <thead>
                         <tr>
-                            <th>Nome</th>
-                            <th>Mês</th>
-                            <th>ANo</th>
-                            <th>Ações</th>
+                            <th>Name</th>
+                            <th>Month</th>
+                            <th>Year</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
